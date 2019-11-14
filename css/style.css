@@ -37,7 +37,7 @@
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 700px;
+    height: 100%;
     background: #373B5E 0% 0% no-repeat padding-box;
 
 }
@@ -89,47 +89,49 @@ h4{
 
 .sec1{
     position: relative;
-    /*margin-top: 120px;*/
     width: 100%;
     height: 600px;
     background: #373B5E 0% 0% no-repeat padding-box;
 }
+.sec12{
+    width: 800px;
+    height: 515px;
+    background: transparent;
+    position: relative;
+    margin: auto;
+}
 #cen-img{
-    margin-top: 120px;
-    margin-left: 468px;
+    position: absolute;
+    right: 0;
 }
 #cen-img1{
     margin-top: 80px;
     
 }
 #small-cont{
-    margin-left: 394px;
-    left: 394px;
-    width: 254px;
+    width: 400px;
     height: 286px;
     position: absolute;
-    top: 230px;
-    left: 0px;
     background: #373B5E 0% 0% no-repeat padding-box;
+    z-index: 20;
+    bottom: 0;
 }
 h5{
-    position:absolute;
-    left: 240px;
-    top: 130px;
-    color: #F5F1F1;
-}
-#AboutShab{
-    position:absolute;
     left: 280px;
-    color: #F5F1F1;
-    top: 300px;
 }
+.AboutShab{
+    position:unset;
+    color: #F5F1F1;
+}
+
+.AboutShab2{
+    color: #F5F1F1;
+}
+
 #text2{
-    position:absolute;
-    left: 280px;
     color: #F5F1F1;
-    top: 406px;
 }
+
 .sec2{
     position: relative;
     width: 100%;
@@ -141,6 +143,9 @@ h5{
     left: 10px;
    
 
+}
+.sec22{
+    
 }
 
 .talk{
@@ -219,14 +224,14 @@ h1{
 }
 .first{
     width: 476px;
-    height: 720px;
+    height: 650px;
     background: #373B5E 0% 0% no-repeat padding-box;
 
 }
 .second{
     left: 476px;
     width: 890px;
-    height: 720px;
+    height: 650px;
     background: #FEFEFE 0% 0% no-repeat padding-box;
     
 }
@@ -235,10 +240,10 @@ h1{
 }
 .contact{
     position: absolute;
-    top: 150px;
-    left: 283px;
-    width: 800px;
-    height: 500px;
+    top: 130px;
+    left: 20%;
+    width: 50%;
+    height: 400px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 20px #00000029;
     z-index: 1;
@@ -246,3 +251,62 @@ h1{
 .contac{
     position: relative;
 }
+.contimg{
+    top: 40px;
+    left: 100px;
+    width: 145px;
+    height: 31px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#textcontact{
+    color: #F5F1F1;
+    margin-top: 20px;
+    margin-left: 50px;
+    font: Regular 16px/25px Poppins;
+}
+.contform{
+    margin-left: 5%;
+    margin-top: 40px;
+}
+h3{
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.contactbutton{
+    margin-top: 10px;
+    margin-left: 2%;
+    color: #373B5E;
+}
+.btn{
+    color: #373B5E;
+}
+
+/* media quere style */
+
+@media screen and (max-width: 992px) {
+    
+.con{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+   
+    
+}
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    .con{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 900px;
+       
+        
+    }
+  }
